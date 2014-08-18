@@ -1,0 +1,624 @@
+@import url("../plugins/bootstrap/css/bootstrap.css");
+@import url("../plugins/bootstrap/css/bootstrap-theme.css");
+@import url("../plugins/font-awesome/css/font-awesome.css");
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,latin-ext");
+/*
+Template Name: No1
+Version: 1.00.0
+Theme URI: http://themes.Blue-NET.eu/No1/
+Author: Blue-NET Mateusz Serwinowski
+Author URI: http://Blue-NET.pl
+Author E-MAIL: biuro@Blue-NET.pl
+License: Custom
+License URI: URI: http://themeforest.net/licenses
+*/
+/*------------------------------------------------------------------
+[Table of contents]
+1. Base
+2. Helper Class
+	2.1 Margin
+	2.2 Padding
+	2.3 Space
+3. Header
+
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+	[1. Body]
+------------------------------------------------------------------*/
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.08);
+}
+/*------------------------------------------------------------------
+	[2. Helper Class]
+------------------------------------------------------------------*/
+a:hover,
+a:link,
+a:focus {
+  outline: none;
+}
+.vertical-middle {
+  vertical-align: middle;
+}
+/* 2.1 Margin
+********************************/
+/* margin top */
+.m-t-0 {
+  margin-top: 0px !important;
+}
+.m-t-10 {
+  margin-top: 10px;
+}
+.m-t-13 {
+  margin-top: 13px;
+}
+.m-t-15 {
+  margin-top: 15px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.m-t-25 {
+  margin-top: 25px;
+}
+.m-t-30 {
+  margin-top: 30px;
+}
+.m-t-35 {
+  margin-top: 35px;
+}
+.m-t-40 {
+  margin-top: 40px;
+}
+.m-t-45 {
+  margin-top: 45px;
+}
+.m-t-50 {
+  margin-top: 50px;
+}
+.m-t-55 {
+  margin-top: 55px;
+}
+.m-t-60 {
+  margin-top: 60px;
+}
+.m-t-65 {
+  margin-top: 65px;
+}
+.m-t-70 {
+  margin-top: 70px;
+}
+.m-t-75 {
+  margin-top: 75px;
+}
+.m-t-80 {
+  margin-top: 80px;
+}
+.m-t-85 {
+  margin-top: 85px;
+}
+.m-t-90 {
+  margin-top: 90px;
+}
+.m-t-95 {
+  margin-top: 95px;
+}
+.m-t-100 {
+  margin-top: 100px;
+}
+/* margin left */
+.m-l-5 {
+  margin-left: 5px;
+}
+.m-l-10 {
+  margin-left: 10px;
+}
+.m-l-15 {
+  margin-left: 15px;
+}
+.m-l-20 {
+  margin-left: 20px;
+}
+.m-l-25 {
+  margin-left: 25px;
+}
+.m-l-30 {
+  margin-left: 30px;
+}
+.m-l-35 {
+  margin-left: 35px;
+}
+.m-l-40 {
+  margin-left: 40px;
+}
+.m-l-45 {
+  margin-left: 45px;
+}
+.m-l-50 {
+  margin-left: 50px;
+}
+.m-l-55 {
+  margin-left: 55px;
+}
+/* margin right */
+.m-r-5 {
+  margin-right: 5px;
+}
+.m-r-10 {
+  margin-right: 10px;
+}
+.m-r-15 {
+  margin-right: 15px;
+}
+.m-r-20 {
+  margin-right: 20px;
+}
+.m-r-25 {
+  margin-right: 25px;
+}
+.m-r-30 {
+  margin-right: 30px;
+}
+.m-r-35 {
+  margin-right: 35px;
+}
+.m-r-40 {
+  margin-right: 40px;
+}
+.m-r-45 {
+  margin-right: 45px;
+}
+.m-r-50 {
+  margin-right: 50px;
+}
+.m-r-55 {
+  margin-right: 55px;
+}
+/* margin bottom */
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.m-b-25 {
+  margin-bottom: 25px;
+}
+.m-b-30 {
+  margin-bottom: 30px;
+}
+.m-b-35 {
+  margin-bottom: 35px;
+}
+.m-b-40 {
+  margin-bottom: 40px;
+}
+.m-b-45 {
+  margin-bottom: 45px;
+}
+.m-b-50 {
+  margin-bottom: 50px;
+}
+.m-b-55 {
+  margin-bottom: 55px;
+}
+.m-b-60 {
+  margin-bottom: 60px;
+}
+.m-b-65 {
+  margin-bottom: 65px;
+}
+.m-b-70 {
+  margin-bottom: 70px;
+}
+.m-b-75 {
+  margin-bottom: 75px;
+}
+.m-b-80 {
+  margin-bottom: 80px;
+}
+.m-b-85 {
+  margin-bottom: 85px;
+}
+.m-b-90 {
+  margin-bottom: 90px;
+}
+.m-b-95 {
+  margin-bottom: 95px;
+}
+.m-b-100 {
+  margin-bottom: 100px;
+}
+/* 2.2 padding
+********************************/
+.padding-5 {
+  padding: 5px;
+}
+.padding-10 {
+  padding: 10px;
+}
+.padding-15 {
+  padding: 15px;
+}
+.padding-20 {
+  padding: 20px;
+}
+.padding-25 {
+  padding: 25px;
+}
+.padding-30 {
+  padding: 30px;
+}
+.padding-35 {
+  padding: 35px;
+}
+.padding-40 {
+  padding: 40px;
+}
+/* 2.3 space
+********************************/
+.space-60 {
+  height: 60px;
+}
+.space-80 {
+  height: 80px;
+}
+.space-100 {
+  height: 100px;
+}
+/*------------------------------------------------------------------
+	[3. Header]
+------------------------------------------------------------------*/
+header .navbar-default {
+  background: none;
+  border-radius: 0px;
+  box-shadow: none;
+  margin-bottom: 0;
+  border: none;
+}
+header .navbar-default .navbar-brand {
+  height: auto;
+  padding: 25px 10px;
+}
+header .navbar-default .navbar-nav {
+  margin-top: 38px;
+  font-size: 15px;
+  font-weight: 500;
+}
+header .navbar-default .navbar-nav a {
+  color: #040000;
+}
+header .navbar-default .navbar-nav a:hover {
+  color: #040000;
+  border-bottom: 1px solid #040000;
+}
+header .navbar-default .navbar-nav a.btn {
+  background: none;
+  border: 1px solid #999;
+  padding: 6px 30px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+header .navbar-default .navbar-nav > .open > a,
+header .navbar-default .navbar-nav > .open > a:hover,
+header .navbar-default .navbar-nav > .active > a,
+header .navbar-default .navbar-nav > .active > a:hover {
+  background: none;
+  box-shadow: none;
+  color: #040000;
+}
+/*------------------------------------------------------------------
+	[Index]
+------------------------------------------------------------------*/
+body.index #index {
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+}
+body.index #index .container {
+  margin-top: 5%;
+  width: 1379px;
+}
+body.index #index .container .indexImg1,
+body.index #index .container .indexImg2,
+body.index #index .container .indexImg3,
+body.index #index .container .indexImg4,
+body.index #index .container .indexImg5,
+body.index #index .container .indexImg6,
+body.index #index .container .indexImg7,
+body.index #index .container .indexImg8 {
+  position: relative;
+  display: block;
+  background-size: cover;
+}
+body.index #index .container .indexImg1 span.block,
+body.index #index .container .indexImg2 span.block,
+body.index #index .container .indexImg3 span.block,
+body.index #index .container .indexImg4 span.block,
+body.index #index .container .indexImg5 span.block,
+body.index #index .container .indexImg6 span.block,
+body.index #index .container .indexImg7 span.block,
+body.index #index .container .indexImg8 span.block {
+  position: absolute;
+  display: block;
+  max-width: 417px;
+  height: 67px;
+  bottom: 8px;
+  font-size: 22px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.64);
+  padding: 15px 25px;
+}
+body.index #index .container .indexImg1:hover,
+body.index #index .container .indexImg2:hover,
+body.index #index .container .indexImg3:hover,
+body.index #index .container .indexImg4:hover,
+body.index #index .container .indexImg5:hover,
+body.index #index .container .indexImg6:hover,
+body.index #index .container .indexImg7:hover,
+body.index #index .container .indexImg8:hover {
+  vertical-align: middle;
+}
+body.index #index .container .indexImg1:hover span.block,
+body.index #index .container .indexImg2:hover span.block,
+body.index #index .container .indexImg3:hover span.block,
+body.index #index .container .indexImg4:hover span.block,
+body.index #index .container .indexImg5:hover span.block,
+body.index #index .container .indexImg6:hover span.block,
+body.index #index .container .indexImg7:hover span.block,
+body.index #index .container .indexImg8:hover span.block {
+  background: none;
+  vertical-align: middle;
+  font-size: 30px;
+  text-align: center !important;
+  top: 40%;
+  margin-top: -15px;
+}
+body.index #index .container .indexImg1:hover span.block i.fa,
+body.index #index .container .indexImg2:hover span.block i.fa,
+body.index #index .container .indexImg3:hover span.block i.fa,
+body.index #index .container .indexImg4:hover span.block i.fa,
+body.index #index .container .indexImg5:hover span.block i.fa,
+body.index #index .container .indexImg6:hover span.block i.fa,
+body.index #index .container .indexImg7:hover span.block i.fa,
+body.index #index .container .indexImg8:hover span.block i.fa {
+  display: none;
+}
+body.index #index .container .indexImg1:after,
+body.index #index .container .indexImg2:after,
+body.index #index .container .indexImg3:after,
+body.index #index .container .indexImg4:after,
+body.index #index .container .indexImg5:after,
+body.index #index .container .indexImg6:after,
+body.index #index .container .indexImg7:after,
+body.index #index .container .indexImg8:after {
+  background: url(../img/cien.png) bottom center no-repeat;
+  background-size: contain;
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 20px;
+  bottom: -10px;
+}
+body.index #index .container .indexImg1 {
+  background: url(../img/homeImg_01.png) no-repeat;
+  width: 425px;
+  min-height: 229px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+body.index #index .container .indexImg1 span.block {
+  background: url(../img/homeImgBar_01.png) no-repeat;
+  width: 417px;
+}
+body.index #index .container .indexImg1:hover {
+  background: url(../img/homeImgHover_01.png) no-repeat;
+}
+body.index #index .container .indexImg2 {
+  background: url(../img/homeImg_02.png) no-repeat;
+  width: 425px;
+  min-height: 219px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body.index #index .container .indexImg2 span.block {
+  background: url(../img/homeImgBar_02.png) no-repeat;
+  width: 417px;
+  top: 0px;
+  bottom: auto;
+  padding: 12px 10px;
+}
+body.index #index .container .indexImg2 span.block i.fa {
+  display: block;
+}
+body.index #index .container .indexImg2:hover {
+  background: url(../img/homeImgHover_02.png) no-repeat;
+}
+body.index #index .container .indexImg3 {
+  background: url(../img/homeImg_03.png) no-repeat;
+  width: 424px;
+  min-height: 229px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: 0;
+}
+body.index #index .container .indexImg3 span.block {
+  background: url(../img/homeImgBar_03.png) no-repeat;
+  width: 417px;
+  bottom: 8px;
+  left: -1px;
+}
+body.index #index .container .indexImg3:hover {
+  background: url(../img/homeImgHover_03.png) no-repeat;
+}
+body.index #index .container .indexImg4 {
+  background: url(../img/homeImg_04.png) no-repeat;
+  width: 368px;
+  min-height: 229px;
+  margin-left: -35px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+body.index #index .container .indexImg4 span.block {
+  background: url(../img/homeImgBar_04.png) no-repeat;
+  width: 368px;
+  padding: 2px 25px;
+}
+body.index #index .container .indexImg4:hover {
+  background: url(../img/homeImgHover_04.png) no-repeat;
+}
+body.index #index .container .indexImg5 {
+  background: url(../img/homeImg_05.png) no-repeat;
+  width: 358px;
+  min-height: 229px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: 0;
+  right: -35px;
+}
+body.index #index .container .indexImg5 span.block {
+  background: url(../img/homeImgBar_05.png) no-repeat;
+  width: 368px;
+  left: -1px;
+  padding-right: 30px;
+}
+body.index #index .container .indexImg5:hover {
+  background: url(../img/homeImgHover_05.png) no-repeat;
+}
+body.index #index .container .indexImg6 {
+  background: url(../img/homeImg_06.png) no-repeat;
+  width: 425px;
+  min-height: 229px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+body.index #index .container .indexImg6 span.block {
+  background: url(../img/homeImgBar_06.png) no-repeat;
+  width: 360px;
+  right: 0px;
+  padding-left: 95px;
+}
+body.index #index .container .indexImg6:hover {
+  background: url(../img/homeImgHover_06.png) no-repeat;
+}
+body.index #index .container .indexImg7 {
+  background: url(../img/homeImg_07.png) no-repeat;
+  width: 425px;
+  min-height: 222px;
+  margin-top: 80px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body.index #index .container .indexImg7 span.block {
+  background: url(../img/homeImgBar_07.png) no-repeat;
+  width: 417px;
+  padding: 3px 10px;
+}
+body.index #index .container .indexImg7 span.block i.fa {
+  display: block;
+}
+body.index #index .container .indexImg7:hover {
+  background: url(../img/homeImgHover_07.png) no-repeat;
+}
+body.index #index .container .indexImg8 {
+  background: url(../img/homeImg_08.png) no-repeat;
+  width: 424px;
+  min-height: 229px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 15px;
+}
+body.index #index .container .indexImg8 span.block {
+  background: url(../img/homeImgBar_08.png) no-repeat;
+  width: 417px;
+  left: -1px;
+  padding-right: 145px;
+}
+body.index #index .container .indexImg8:hover {
+  background: url(../img/homeImgHover_08.png) no-repeat;
+}
+/*------------------------------------------------------------------
+	[Content]
+------------------------------------------------------------------*/
+#content .header {
+  text-align: center;
+  font-size: 43px;
+  color: #999;
+}
+#content .header span.info {
+  font-weight: bold;
+  text-align: left;
+  font-size: 16px;
+  display: block;
+  color: #21b6d7;
+}
+#content .header span.color {
+  font-weight: bold;
+  color: #21b6d7;
+}
+#content .images a {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+#content .images a span.block {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px 10px 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.64);
+}
+#content .images a span.block h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+}
+#content blockquote {
+  color: #999;
+  font-size: 14px;
+  border-color: #21b6d7;
+}
+#content blockquote h3 {
+  color: #21b6d7;
+  font-size: 18px;
+}
+#content blockquote .color {
+  color: #21b6d7;
+  font-style: italic;
+}
+#content blockquote ul {
+  padding-left: 0;
+}
+#content blockquote ul span {
+  color: #21b6d7;
+}
+/*------------------------------------------------------------------
+	[Copyright]
+------------------------------------------------------------------*/
+#copyright {
+  font-size: 12px;
+  color: #fff;
+  background: #21b6d7;
+  padding: 10px 0;
+}
+#copyright a {
+  color: #fff;
+}

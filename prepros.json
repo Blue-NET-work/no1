@@ -1,0 +1,511 @@
+{
+  "id": "58fcc99f",
+  "cfgVersion": 1,
+  "name": "no1",
+  "files": {
+    "5fce6d39": {
+      "id": "5fce6d39",
+      "pid": "58fcc99f",
+      "name": "bootstrap.js",
+      "input": "assets\\plugins\\bootstrap\\js\\bootstrap.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "34f1185b": {
+      "id": "34f1185b",
+      "pid": "58fcc99f",
+      "name": "modernizr.custom.js",
+      "input": "assets\\plugins\\modernizr.custom.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "bc969a73": {
+      "id": "bc969a73",
+      "pid": "58fcc99f",
+      "name": "README.md",
+      "input": "assets\\plugins\\pace\\README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "5dae7bac": {
+      "id": "5dae7bac",
+      "pid": "58fcc99f",
+      "name": "pace.coffee",
+      "input": "assets\\plugins\\pace\\pace.coffee",
+      "customOutput": false,
+      "type": "Coffee",
+      "config": {
+        "autoCompile": false,
+        "bare": false,
+        "uglify": false,
+        "mangle": true,
+        "iced": false,
+        "sourcemaps": false
+      }
+    },
+    "4fdcca7e": {
+      "id": "4fdcca7e",
+      "pid": "58fcc99f",
+      "name": "Gruntfile.coffee",
+      "input": "assets\\plugins\\pace\\Gruntfile.coffee",
+      "customOutput": false,
+      "type": "Coffee",
+      "config": {
+        "autoCompile": false,
+        "bare": false,
+        "uglify": false,
+        "mangle": true,
+        "iced": false,
+        "sourcemaps": false
+      }
+    },
+    "57c85312": {
+      "id": "57c85312",
+      "pid": "58fcc99f",
+      "name": "pace.js",
+      "input": "assets\\plugins\\pace\\pace.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c1244201": {
+      "id": "c1244201",
+      "pid": "58fcc99f",
+      "name": "intro.md",
+      "input": "assets\\plugins\\pace\\docs\\intro.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "35871ffe": {
+      "id": "35871ffe",
+      "pid": "58fcc99f",
+      "name": "font-awesome.less",
+      "input": "assets\\plugins\\font-awesome\\less\\font-awesome.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": false,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "d1ffb191": {
+      "id": "d1ffb191",
+      "pid": "58fcc99f",
+      "name": "themes.coffee",
+      "input": "assets\\plugins\\pace\\docs\\lib\\themes.coffee",
+      "customOutput": false,
+      "type": "Coffee",
+      "config": {
+        "autoCompile": false,
+        "bare": false,
+        "uglify": false,
+        "mangle": true,
+        "iced": false,
+        "sourcemaps": false
+      }
+    },
+    "d8499c13": {
+      "id": "d8499c13",
+      "pid": "58fcc99f",
+      "name": "color.js",
+      "input": "assets\\plugins\\pace\\docs\\lib\\color.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8fddeb72": {
+      "id": "8fddeb72",
+      "pid": "58fcc99f",
+      "name": "index.jade",
+      "input": "assets\\plugins\\pace\\docs\\resources\\templates\\index.jade",
+      "customOutput": false,
+      "type": "Jade",
+      "config": {
+        "autoCompile": false,
+        "pretty": true
+      }
+    },
+    "895c6c63": {
+      "id": "895c6c63",
+      "pid": "58fcc99f",
+      "name": "themes.js",
+      "input": "assets\\plugins\\pace\\docs\\lib\\themes.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "5eac07ed": {
+      "id": "5eac07ed",
+      "pid": "58fcc99f",
+      "name": "font-awesome.scss",
+      "input": "assets\\plugins\\font-awesome\\scss\\font-awesome.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": false,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    },
+    "d7239718": {
+      "id": "d7239718",
+      "pid": "58fcc99f",
+      "name": "page.jade",
+      "input": "assets\\plugins\\pace\\docs\\resources\\templates\\page.jade",
+      "customOutput": false,
+      "type": "Jade",
+      "config": {
+        "autoCompile": false,
+        "pretty": true
+      }
+    },
+    "496989b3": {
+      "id": "496989b3",
+      "pid": "58fcc99f",
+      "name": "style.less",
+      "input": "assets\\less\\style.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": true,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "33f4e113": {
+      "id": "33f4e113",
+      "pid": "58fcc99f",
+      "name": "layout.js",
+      "input": "assets\\scripts\\layout.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    }
+  },
+  "imports": {
+    "523a032e": {
+      "id": "523a032e",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\variables.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "af5e4a7f": {
+      "id": "af5e4a7f",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\mixins.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "7dd09cca": {
+      "id": "7dd09cca",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\path.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "c6abf10b": {
+      "id": "c6abf10b",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\core.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "1b6900d0": {
+      "id": "1b6900d0",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\larger.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "5cce5dd7": {
+      "id": "5cce5dd7",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\fixed-width.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "47700c5e": {
+      "id": "47700c5e",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\list.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "5424aa5e": {
+      "id": "5424aa5e",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\bordered-pulled.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "8d93bfb6": {
+      "id": "8d93bfb6",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\spinning.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "ef05b887": {
+      "id": "ef05b887",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\rotated-flipped.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "b40d0f34": {
+      "id": "b40d0f34",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\stacked.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "410c3e49": {
+      "id": "410c3e49",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\less\\icons.less",
+      "parents": [
+        "35871ffe"
+      ]
+    },
+    "4b54d9b8": {
+      "id": "4b54d9b8",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_variables.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "e7b42717": {
+      "id": "e7b42717",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_mixins.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "ef284a17": {
+      "id": "ef284a17",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_path.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "011b7777": {
+      "id": "011b7777",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_core.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "fd54f053": {
+      "id": "fd54f053",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_larger.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "4c5e04cd": {
+      "id": "4c5e04cd",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_fixed-width.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "43f68196": {
+      "id": "43f68196",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_list.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "655824dc": {
+      "id": "655824dc",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_bordered-pulled.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "a9ceb569": {
+      "id": "a9ceb569",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_spinning.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "04ac4704": {
+      "id": "04ac4704",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_rotated-flipped.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "3eefd0a0": {
+      "id": "3eefd0a0",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_stacked.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "cd2cab7d": {
+      "id": "cd2cab7d",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\scss\\_icons.scss",
+      "parents": [
+        "5eac07ed"
+      ]
+    },
+    "7389dca9": {
+      "id": "7389dca9",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\bootstrap\\css\\bootstrap.css",
+      "parents": [
+        "496989b3"
+      ]
+    },
+    "27943a78": {
+      "id": "27943a78",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\bootstrap\\css\\bootstrap-theme.css",
+      "parents": [
+        "496989b3"
+      ]
+    },
+    "ad40b6ac": {
+      "id": "ad40b6ac",
+      "pid": "58fcc99f",
+      "path": "assets\\plugins\\font-awesome\\css\\font-awesome.css",
+      "parents": [
+        "496989b3"
+      ]
+    },
+    "75ada3db": {
+      "id": "75ada3db",
+      "pid": "58fcc99f",
+      "path": "assets\\less\\elements.less",
+      "parents": [
+        "496989b3"
+      ]
+    },
+    "32b689fd": {
+      "id": "32b689fd",
+      "pid": "58fcc99f",
+      "path": "assets\\less\\helper.less",
+      "parents": [
+        "496989b3"
+      ]
+    }
+  },
+  "images": {},
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpSecure": false,
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}
