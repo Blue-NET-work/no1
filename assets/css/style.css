@@ -622,3 +622,51 @@ body.index #index .container .indexImg8:hover {
 #copyright a {
   color: #fff;
 }
+/*------------------------------------------------------------------
+	[szkoła językowa]
+------------------------------------------------------------------*/
+.szkola_jezykowa {
+  background: #efefef;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: -moz-linear-gradient(top, #efefef 0%, #ffffff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #efefef 0%, #ffffff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #efefef 0%, #ffffff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #efefef 0%, #ffffff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #efefef 0%, #ffffff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-8 */
+  min-height: 800px;
+}
+.szkola_jezykowa header .navbar-default .navbar-nav a {
+  color: #999;
+}
+.szkola_jezykowa header .navbar-default .navbar-nav a:hover {
+  color: #999;
+  border-bottom: 1px solid #999;
+}
+.szkola_jezykowa header .navbar-default .navbar-nav > .open > a,
+.szkola_jezykowa header .navbar-default .navbar-nav > .open > a:hover,
+.szkola_jezykowa header .navbar-default .navbar-nav > .active > a,
+.szkola_jezykowa header .navbar-default .navbar-nav > .active > a:hover {
+  color: #999;
+}
+.szkola_jezykowa #copyright {
+  font-size: 12px;
+  color: #999;
+  background: none;
+}
+.szkola_jezykowa #copyright .row {
+  background: url(../img/bgCopyrightSzkolaJezykowa.jpg) top center repeat-x;
+  padding: 10px 0;
+}
+.szkola_jezykowa #copyright a {
+  color: #999;
+}
