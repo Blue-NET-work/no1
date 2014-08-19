@@ -672,6 +672,7 @@ body.index #index .container .indexImg8:hover {
   color: #999;
   font-size: 42.75px;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 .szkola_jezykowa #content h1 span.color {
   color: #21b6d7;
@@ -683,6 +684,48 @@ body.index #index .container .indexImg8:hover {
   height: 0;
   float: right;
   margin-top: 25px;
+}
+.szkola_jezykowa #content .box {
+  position: relative;
+  background: #fff;
+  color: #999;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  min-height: 430px;
+}
+.szkola_jezykowa #content .box h3 {
+  color: #21b6d7;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.szkola_jezykowa #content .box h3.dowoz {
+  margin-bottom: 10px;
+}
+.szkola_jezykowa #content .box.active {
+  background: #21b6d7 url(../img/bgSzkola.png) no-repeat bottom right;
+  border: none;
+  color: #fff;
+}
+.szkola_jezykowa #content .box.active h3 {
+  color: #fff;
+}
+.szkola_jezykowa #content .bg1Szkola {
+  background: url(../img/bg1Szkola.png) no-repeat;
+  position: absolute;
+  width: 153px;
+  height: 197px;
+  bottom: 0px;
+  left: -80px;
+}
+.szkola_jezykowa #content .bg2Szkola {
+  background: url(../img/bg2Szkola.png) no-repeat;
+  position: absolute;
+  width: 183px;
+  height: 138px;
+  bottom: 0px;
+  right: -90px;
 }
 .szkola_jezykowa #content .btn-zapisy-testy {
   margin-top: 40px;
