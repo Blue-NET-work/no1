@@ -658,12 +658,33 @@ body.index #index .container .indexImg8:hover {
 .szkola_jezykowa header .navbar-default .navbar-nav > .active > a:hover {
   color: #999;
 }
+.szkola_jezykowa #banner {
+  background: url(../img/szkolaBg.png) no-repeat center;
+  height: 339px;
+  width: 100%;
+  margin: 20px auto;
+}
+.szkola_jezykowa #content h1 {
+  color: #999;
+  font-size: 42.75px;
+  font-weight: 600;
+}
+.szkola_jezykowa #content h1 span.color {
+  color: #21b6d7;
+}
+.szkola_jezykowa #content h1 span.border {
+  background: url(../img/bgCopyrightSzkolaJezykowa.jpg) repeat-x center;
+  display: inline-block;
+  width: 72%;
+  height: 30px;
+  padding-left: 20px;
+}
 .szkola_jezykowa #copyright {
   font-size: 12px;
   color: #999;
   background: none;
 }
-.szkola_jezykowa #copyright .row {
+.szkola_jezykowa #copyright .row .footer {
   background: url(../img/bgCopyrightSzkolaJezykowa.jpg) top center repeat-x;
   padding: 10px 0;
 }
