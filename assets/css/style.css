@@ -476,6 +476,10 @@ body.index #index .container .indexImg4 span.block {
 body.index #index .container .indexImg4:hover {
   background: url(../img/homeImgHover_04.png) no-repeat;
 }
+body.index #index .container .indexImg4:hover span.block {
+  padding-left: 15px !important;
+  padding-right: 50px !important;
+}
 body.index #index .container .indexImg5 {
   background: url(../img/homeImg_05.png) no-repeat;
   width: 358px;
@@ -676,8 +680,9 @@ body.index #index .container .indexImg8:hover {
   background: url(../img/bgCopyrightSzkolaJezykowa.jpg) repeat-x center;
   display: inline-block;
   width: 72%;
-  height: 30px;
+  height: 56px;
   padding-left: 20px;
+  float: right;
 }
 .szkola_jezykowa #copyright {
   font-size: 12px;
