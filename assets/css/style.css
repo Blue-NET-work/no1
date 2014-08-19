@@ -677,12 +677,30 @@ body.index #index .container .indexImg8:hover {
   color: #21b6d7;
 }
 .szkola_jezykowa #content h1 span.border {
-  background: url(../img/bgCopyrightSzkolaJezykowa.jpg) repeat-x center;
-  display: inline-block;
   width: 72%;
-  height: 56px;
   padding-left: 20px;
+  border-bottom: 3px double #ccc;
+  height: 0;
   float: right;
+  margin-top: 25px;
+}
+.szkola_jezykowa #content .btn-zapisy-testy {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.szkola_jezykowa #content .btn-zapisy-testy .btn {
+  background: none;
+  border-radius: 0;
+  color: #21b6d7;
+  font-size: 18px;
+  border-color: rgba(0, 0, 0, 0.15);
+  padding: 15px 0;
+  min-width: 250px;
+}
+.szkola_jezykowa #content .btn-zapisy-testy .btn.btn-active {
+  border-color: rgba(0, 0, 0, 0.05);
+  background: #21b6d7;
+  color: #fff;
 }
 .szkola_jezykowa #copyright {
   font-size: 12px;
