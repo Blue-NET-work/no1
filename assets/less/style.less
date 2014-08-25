@@ -556,3 +556,131 @@ body.index{
 		a{color:#999;}
 	}
 }
+
+
+
+/*------------------------------------------------------------------
+	[szkoła dodatkowa]
+------------------------------------------------------------------*/
+.szkola_dodatkowa{
+	.gradienttoptobottom(#efefef, #fff);
+	
+	min-height:800px;
+	
+	header{
+		.navbar-default {
+			
+			.navbar-nav{
+				
+				a{
+					color:#999;
+					&:hover{
+						color:#999;
+						border-bottom:1px solid #999;
+					}
+					
+				}
+						
+				& > .open > a, 
+				& > .open > a:hover, 
+				& > .active > a,
+				& > .active > a:hover{
+					color:#999;
+				}
+			
+			}
+	
+		}
+	}
+	
+	#banner{
+		background:url(../img/szkolaBg.png) no-repeat center;
+		height:250px;
+		width:100%;
+		margin:20px auto;
+	}
+	
+	#content{
+		h1{
+			color:#999;
+			font-size:42.75px;
+			font-weight:600;
+			margin-bottom:30px;
+			
+			span.color{
+				color:#21b6d7;
+			}
+			
+			span.border{
+				width: 72%;
+				padding-left: 20px;
+				border-bottom: 3px double #ccc;
+				height: 0;
+				float: right;
+				margin-top: 25px;
+			}
+		}
+		
+		.box{
+			position:relative;
+			background:#fff;
+			color:#999;
+			font-size:14px;
+			border:1px solid rgba(0,0,0,0.05);	
+			padding:15px;
+			min-height:130px;
+			
+			h3{
+				color:#21b6d7;
+				font-size:18px;
+				font-weight:600;
+				margin-bottom:20px;
+				
+				&.dowoz{margin-bottom:10px;}
+			}
+			
+			&.active{
+				background:#21b6d7 url(../img/bgSzkola.png) no-repeat bottom right;
+				border:none;
+				color:#fff;
+				
+				h3{
+					color:#fff;
+				}
+			}
+		}
+
+		.bg1Szkola{
+			background:url(../img/bg1Szkola.png) no-repeat;
+			position:absolute;
+			width:153px;
+			height:197px;
+			bottom:0px;
+			left:-80px;
+		}
+
+		.bg2Szkola{
+			background:url(../img/bg2Szkola.png) no-repeat;
+			position:absolute;
+			width:183px;
+			height:138px;
+			bottom:0px;
+			right:-90px;
+		}
+		
+		
+	}
+	
+	#copyright{
+		font-size:12px;
+		color:#999;
+		background:none;
+		
+		.row .footer{
+			background:url(../img/bgCopyrightSzkolaJezykowa.jpg) top center repeat-x;
+			padding:10px 0;
+		}
+		
+		a{color:#999;}
+	}
+}
