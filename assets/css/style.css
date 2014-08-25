@@ -850,14 +850,6 @@ body.index #index .container .indexImg8:hover {
   bottom: 0px;
   left: -80px;
 }
-.szkola_dodatkowa #content .bg2Szkola {
-  background: url(../img/bg2Szkola.png) no-repeat;
-  position: absolute;
-  width: 183px;
-  height: 138px;
-  bottom: 0px;
-  right: -90px;
-}
 .szkola_dodatkowa #copyright {
   font-size: 12px;
   color: #999;
