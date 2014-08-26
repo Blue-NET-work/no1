@@ -756,12 +756,14 @@ body.index #index .container .indexImg8:hover {
   border: 1px solid rgba(0, 0, 0, 0.05);
   padding: 15px;
   min-height: 430px;
+  box-shadow: 5px 5px 0px #ddd;
 }
 .szkola_jezykowa #content .box h3 {
   color: #21b6d7;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top:0;
 }
 .szkola_jezykowa #content .box h3.dowoz {
   margin-bottom: 10px;
@@ -790,11 +792,11 @@ body.index #index .container .indexImg8:hover {
   bottom: 0px;
   right: -90px;
 }
-.szkola_jezykowa #content .btn-zapisy-testy {
-  margin-top: 40px;
+.btn-zapisy-testy {
+  padding-top: 290px;
   margin-bottom: 20px;
 }
-.szkola_jezykowa #content .btn-zapisy-testy .btn {
+.btn-zapisy-testy .btn {
   background: none;
   border-radius: 0;
   color: #21b6d7;
@@ -802,8 +804,9 @@ body.index #index .container .indexImg8:hover {
   border-color: rgba(0, 0, 0, 0.15);
   padding: 15px 0;
   min-width: 250px;
+  text-shadow: none !important;
 }
-.szkola_jezykowa #content .btn-zapisy-testy .btn.btn-active {
+.btn-zapisy-testy .btn.btn-active {
   border-color: rgba(0, 0, 0, 0.05);
   background: #21b6d7;
   color: #fff;
