@@ -8,12 +8,7 @@
 /*
 Template Name: No1
 Version: 1.00.0
-Theme URI: http://themes.Blue-NET.eu/No1/
-Author: Blue-NET Mateusz Serwinowski
-Author URI: http://Blue-NET.pl
-Author E-MAIL: biuro@Blue-NET.pl
 License: Custom
-License URI: URI: http://themeforest.net/licenses
 */
 
 /*------------------------------------------------------------------
@@ -93,6 +88,57 @@ header{
 		
 		}
 
+		.nav-background{
+			.navbar-nav{
+				.gradienttoptobottom(#005790, #21b6d7);
+			
+				a{
+					color:#e1f8ff !important;
+					border-right:2px dashed rgba(0,87,144,0.4);
+					padding-top:5px;
+					padding-bottom:5px;
+					margin-top:10px;
+					margin-bottom:10px;
+					
+					&:hover{
+						color:#fff !important;
+						border-bottom:none !important;
+					}
+					
+					&.btn{
+						background:none;
+						border:1px solid #999;
+						padding:6px 30px;
+						margin-top:8px;
+						margin-left:10px;
+					}
+				}
+						
+				& > .open > a, 
+				& > .open > a:hover, 
+				& > .active > a,
+				& > .active > a:hover{
+					background:none;
+					box-shadow:none;
+					color:#fff !important;
+				}
+					
+				& li:last-child a{
+					border-right:none !important;
+				}
+				
+				&:before{
+					position:absolute;
+					background:#005790;
+					height:3px;
+					content:" ";
+					width:98%;
+					display:block;
+					bottom:-3px;
+					margin:0 1%;
+				}
+			}
+		}
 	}	
 	
 }
