@@ -467,7 +467,7 @@ body.index #index .container .indexImg8:after {
 }
 body.index #index .container .indexImg1 {
   background: url(../img/homeImg_01.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   max-width: 425px;
   min-height: 229px;
@@ -476,15 +476,17 @@ body.index #index .container .indexImg1 {
 }
 body.index #index .container .indexImg1 span.block {
   background: url(../img/homeImgBar_01.png) no-repeat;
+  background-size: contain;
   width: 100%;
   max-width: 417px;
 }
 body.index #index .container .indexImg1:hover {
   background: url(../img/homeImgHover_01.png) no-repeat;
+  background-size: contain;
 }
 body.index #index .container .indexImg2 {
   background: url(../img/homeImg_02.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   max-width: 425px;
   min-height: 219px;
@@ -496,6 +498,7 @@ body.index #index .container .indexImg2 {
 }
 body.index #index .container .indexImg2 span.block {
   background: url(../img/homeImgBar_02.png) no-repeat;
+  background-size: contain;
   width: 100%;
   max-width: 417px;
   top: 0px;
@@ -507,10 +510,11 @@ body.index #index .container .indexImg2 span.block i.fa {
 }
 body.index #index .container .indexImg2:hover {
   background: url(../img/homeImgHover_02.png) no-repeat;
+  background-size: contain;
 }
 body.index #index .container .indexImg3 {
   background: url(../img/homeImg_03.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   max-width: 424px;
   min-height: 229px;
@@ -521,6 +525,7 @@ body.index #index .container .indexImg3 {
 }
 body.index #index .container .indexImg3 span.block {
   background: url(../img/homeImgBar_03.png) no-repeat;
+  background-size: contain;
   width: 100%;
   max-width: 417px;
   bottom: 8px;
@@ -528,10 +533,11 @@ body.index #index .container .indexImg3 span.block {
 }
 body.index #index .container .indexImg3:hover {
   background: url(../img/homeImgHover_03.png) no-repeat;
+  background-size: contain;
 }
 body.index #index .container .indexImg4 {
   background: url(../img/homeImg_04.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   max-width: 368px;
   min-height: 229px;
@@ -542,12 +548,14 @@ body.index #index .container .indexImg4 {
 }
 body.index #index .container .indexImg4 span.block {
   background: url(../img/homeImgBar_04.png) no-repeat;
+  background-size: contain;
   width: 100%;
   max-width: 368px;
   padding: 2px 25px;
 }
 body.index #index .container .indexImg4:hover {
   background: url(../img/homeImgHover_04.png) no-repeat;
+  background-size: contain;
 }
 body.index #index .container .indexImg4:hover span.block {
   padding-left: 15px !important;
@@ -555,7 +563,7 @@ body.index #index .container .indexImg4:hover span.block {
 }
 body.index #index .container .indexImg5 {
   background: url(../img/homeImg_05.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   max-width: 358px;
   min-height: 229px;
@@ -568,6 +576,7 @@ body.index #index .container .indexImg5 {
 }
 body.index #index .container .indexImg5 span.block {
   background: url(../img/homeImgBar_05.png) no-repeat;
+  background-size: contain;
   width: 100%;
   max-width: 368px;
   left: -1px;
@@ -575,10 +584,11 @@ body.index #index .container .indexImg5 span.block {
 }
 body.index #index .container .indexImg5:hover {
   background: url(../img/homeImgHover_05.png) no-repeat;
+  background-size: contain;
 }
 body.index #index .container .indexImg6 {
   background: url(../img/homeImg_06.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   max-width: 425px;
   min-height: 229px;
@@ -588,6 +598,7 @@ body.index #index .container .indexImg6 {
 }
 body.index #index .container .indexImg6 span.block {
   background: url(../img/homeImgBar_06.png) no-repeat;
+  background-size: contain;
   width: 100%;
   max-width: 360px;
   right: 0px;
@@ -595,10 +606,11 @@ body.index #index .container .indexImg6 span.block {
 }
 body.index #index .container .indexImg6:hover {
   background: url(../img/homeImgHover_06.png) no-repeat;
+  background-size: contain;
 }
 body.index #index .container .indexImg7 {
   background: url(../img/homeImg_07.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   max-width: 425px;
   min-height: 222px;
@@ -610,6 +622,7 @@ body.index #index .container .indexImg7 {
 }
 body.index #index .container .indexImg7 span.block {
   background: url(../img/homeImgBar_07.png) no-repeat;
+  background-size: contain;
   width: 100%;
   max-width: 417px;
   padding: 3px 10px;
@@ -619,10 +632,11 @@ body.index #index .container .indexImg7 span.block i.fa {
 }
 body.index #index .container .indexImg7:hover {
   background: url(../img/homeImgHover_07.png) no-repeat;
+  background-size: contain;
 }
 body.index #index .container .indexImg8 {
   background: url(../img/homeImg_08.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   max-width: 424px;
   min-height: 229px;
@@ -634,6 +648,7 @@ body.index #index .container .indexImg8 {
 }
 body.index #index .container .indexImg8 span.block {
   background: url(../img/homeImgBar_08.png) no-repeat;
+  background-size: contain;
   width: 100%;
   max-width: 417px;
   left: -1px;
@@ -641,6 +656,7 @@ body.index #index .container .indexImg8 span.block {
 }
 body.index #index .container .indexImg8:hover {
   background: url(../img/homeImgHover_08.png) no-repeat;
+  background-size: contain;
 }
 /*------------------------------------------------------------------
 	[Content]
