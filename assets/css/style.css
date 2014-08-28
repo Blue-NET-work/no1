@@ -383,6 +383,7 @@ body.index #index {
 }
 body.index #index .container {
   margin-top: 5%;
+  width: 1379px;
 }
 body.index #index .container .indexImg1,
 body.index #index .container .indexImg2,
@@ -394,6 +395,7 @@ body.index #index .container .indexImg7,
 body.index #index .container .indexImg8 {
   position: relative;
   display: block;
+  background-size: cover;
 }
 body.index #index .container .indexImg1 span.block,
 body.index #index .container .indexImg2 span.block,
@@ -467,18 +469,26 @@ body.index #index .container .indexImg8:after {
 }
 body.index #index .container .indexImg1 {
   background: url(../img/homeImg_01.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 425px;
+=======
+  width: 425px;
+>>>>>>> parent of 72aeccd... change
   min-height: 229px;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 body.index #index .container .indexImg1 span.block {
   background: url(../img/homeImgBar_01.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 417px;
+=======
+  width: 417px;
+>>>>>>> parent of 72aeccd... change
 }
 body.index #index .container .indexImg1:hover {
   background: url(../img/homeImgHover_01.png) no-repeat;
@@ -486,9 +496,13 @@ body.index #index .container .indexImg1:hover {
 }
 body.index #index .container .indexImg2 {
   background: url(../img/homeImg_02.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 425px;
+=======
+  width: 425px;
+>>>>>>> parent of 72aeccd... change
   min-height: 219px;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -498,9 +512,13 @@ body.index #index .container .indexImg2 {
 }
 body.index #index .container .indexImg2 span.block {
   background: url(../img/homeImgBar_02.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 417px;
+=======
+  width: 417px;
+>>>>>>> parent of 72aeccd... change
   top: 0px;
   bottom: auto;
   padding: 12px 10px;
@@ -514,9 +532,13 @@ body.index #index .container .indexImg2:hover {
 }
 body.index #index .container .indexImg3 {
   background: url(../img/homeImg_03.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 424px;
+=======
+  width: 424px;
+>>>>>>> parent of 72aeccd... change
   min-height: 229px;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -525,9 +547,13 @@ body.index #index .container .indexImg3 {
 }
 body.index #index .container .indexImg3 span.block {
   background: url(../img/homeImgBar_03.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 417px;
+=======
+  width: 417px;
+>>>>>>> parent of 72aeccd... change
   bottom: 8px;
   left: -1px;
 }
@@ -537,9 +563,13 @@ body.index #index .container .indexImg3:hover {
 }
 body.index #index .container .indexImg4 {
   background: url(../img/homeImg_04.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 368px;
+=======
+  width: 368px;
+>>>>>>> parent of 72aeccd... change
   min-height: 229px;
   margin-left: -35px;
   padding-bottom: 20px;
@@ -548,9 +578,13 @@ body.index #index .container .indexImg4 {
 }
 body.index #index .container .indexImg4 span.block {
   background: url(../img/homeImgBar_04.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 368px;
+=======
+  width: 368px;
+>>>>>>> parent of 72aeccd... change
   padding: 2px 25px;
 }
 body.index #index .container .indexImg4:hover {
@@ -563,9 +597,13 @@ body.index #index .container .indexImg4:hover span.block {
 }
 body.index #index .container .indexImg5 {
   background: url(../img/homeImg_05.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 358px;
+=======
+  width: 358px;
+>>>>>>> parent of 72aeccd... change
   min-height: 229px;
   padding-bottom: 20px;
   margin-top: 15px;
@@ -576,9 +614,13 @@ body.index #index .container .indexImg5 {
 }
 body.index #index .container .indexImg5 span.block {
   background: url(../img/homeImgBar_05.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 368px;
+=======
+  width: 368px;
+>>>>>>> parent of 72aeccd... change
   left: -1px;
   padding-right: 30px;
 }
@@ -588,9 +630,13 @@ body.index #index .container .indexImg5:hover {
 }
 body.index #index .container .indexImg6 {
   background: url(../img/homeImg_06.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 425px;
+=======
+  width: 425px;
+>>>>>>> parent of 72aeccd... change
   min-height: 229px;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -598,9 +644,13 @@ body.index #index .container .indexImg6 {
 }
 body.index #index .container .indexImg6 span.block {
   background: url(../img/homeImgBar_06.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 360px;
+=======
+  width: 360px;
+>>>>>>> parent of 72aeccd... change
   right: 0px;
   padding-left: 95px;
 }
@@ -610,9 +660,13 @@ body.index #index .container .indexImg6:hover {
 }
 body.index #index .container .indexImg7 {
   background: url(../img/homeImg_07.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 425px;
+=======
+  width: 425px;
+>>>>>>> parent of 72aeccd... change
   min-height: 222px;
   margin-top: 80px;
   padding-bottom: 20px;
@@ -622,9 +676,13 @@ body.index #index .container .indexImg7 {
 }
 body.index #index .container .indexImg7 span.block {
   background: url(../img/homeImgBar_07.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 417px;
+=======
+  width: 417px;
+>>>>>>> parent of 72aeccd... change
   padding: 3px 10px;
 }
 body.index #index .container .indexImg7 span.block i.fa {
@@ -636,9 +694,13 @@ body.index #index .container .indexImg7:hover {
 }
 body.index #index .container .indexImg8 {
   background: url(../img/homeImg_08.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 424px;
+=======
+  width: 424px;
+>>>>>>> parent of 72aeccd... change
   min-height: 229px;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -648,9 +710,13 @@ body.index #index .container .indexImg8 {
 }
 body.index #index .container .indexImg8 span.block {
   background: url(../img/homeImgBar_08.png) no-repeat;
+<<<<<<< HEAD
   background-size: contain;
   width: 100%;
   max-width: 417px;
+=======
+  width: 417px;
+>>>>>>> parent of 72aeccd... change
   left: -1px;
   padding-right: 145px;
 }
@@ -794,12 +860,14 @@ body.index #index .container .indexImg8:hover {
   border: 1px solid rgba(0, 0, 0, 0.05);
   padding: 15px;
   min-height: 430px;
+  box-shadow: 5px 5px 0px #ddd;
 }
 .szkola_jezykowa #content .box h3 {
   color: #21b6d7;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top:0;
 }
 .szkola_jezykowa #content .box h3.dowoz {
   margin-bottom: 10px;
@@ -828,11 +896,11 @@ body.index #index .container .indexImg8:hover {
   bottom: 0px;
   right: -90px;
 }
-.szkola_jezykowa #content .btn-zapisy-testy {
-  margin-top: 40px;
+.btn-zapisy-testy {
+  padding-top: 290px;
   margin-bottom: 20px;
 }
-.szkola_jezykowa #content .btn-zapisy-testy .btn {
+.btn-zapisy-testy .btn {
   background: none;
   border-radius: 0;
   color: #21b6d7;
@@ -840,8 +908,9 @@ body.index #index .container .indexImg8:hover {
   border-color: rgba(0, 0, 0, 0.15);
   padding: 15px 0;
   min-width: 250px;
+  text-shadow: none !important;
 }
-.szkola_jezykowa #content .btn-zapisy-testy .btn.btn-active {
+.btn-zapisy-testy .btn.btn-active {
   border-color: rgba(0, 0, 0, 0.05);
   background: #21b6d7;
   color: #fff;
@@ -962,4 +1031,21 @@ body.index #index .container .indexImg8:hover {
 }
 .szkola_dodatkowa #copyright a {
   color: #999;
+}
+
+
+
+/* ŁUKASZ */
+
+.content h1 {
+  margin-top: 0;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 26px;
+}
+
+.content h3 {
+  font-size: 22px;
 }
