@@ -383,7 +383,6 @@ body.index #index {
 }
 body.index #index .container {
   margin-top: 5%;
-  width: 1279px;
 }
 body.index #index .container .indexImg1,
 body.index #index .container .indexImg2,
@@ -408,9 +407,9 @@ body.index #index .container .indexImg8 span.block {
   position: absolute;
   display: block;
   max-width: 417px;
-  height: 67px;
-  bottom: 8px;
-  font-size: 22px;
+  height: 54px;
+  bottom: -2px;
+  font-size: 16px;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.64);
   padding: 15px 25px;
@@ -469,22 +468,22 @@ body.index #index .container .indexImg8:after {
 }
 body.index #index .container .indexImg1 {
   background: url(../img/homeImg_01.png) no-repeat;
-  width: 425px;
-  min-height: 229px;
+  width: 334px;
+  min-height: 175px;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 body.index #index .container .indexImg1 span.block {
   background: url(../img/homeImgBar_01.png) no-repeat;
-  width: 417px;
+  width: 334px;
 }
 body.index #index .container .indexImg1:hover {
   background: url(../img/homeImgHover_01.png) no-repeat;
 }
 body.index #index .container .indexImg2 {
   background: url(../img/homeImg_02.png) no-repeat;
-  width: 425px;
-  min-height: 219px;
+  width: 334px;
+  min-height: 169px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   margin-top: -40px;
@@ -493,7 +492,7 @@ body.index #index .container .indexImg2 {
 }
 body.index #index .container .indexImg2 span.block {
   background: url(../img/homeImgBar_02.png) no-repeat;
-  width: 417px;
+  width: 334px;
   top: 0px;
   bottom: auto;
   padding: 12px 10px;
@@ -506,8 +505,8 @@ body.index #index .container .indexImg2:hover {
 }
 body.index #index .container .indexImg3 {
   background: url(../img/homeImg_03.png) no-repeat;
-  width: 424px;
-  min-height: 229px;
+  width: 333px;
+  min-height: 175px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -515,8 +514,8 @@ body.index #index .container .indexImg3 {
 }
 body.index #index .container .indexImg3 span.block {
   background: url(../img/homeImgBar_03.png) no-repeat;
-  width: 417px;
-  bottom: 8px;
+  width: 334px;
+  bottom: -1px;
   left: -1px;
 }
 body.index #index .container .indexImg3:hover {
@@ -524,8 +523,8 @@ body.index #index .container .indexImg3:hover {
 }
 body.index #index .container .indexImg4 {
   background: url(../img/homeImg_04.png) no-repeat;
-  width: 368px;
-  min-height: 229px;
+  width: 289px;
+  min-height: 175px;
   margin-left: -35px;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -533,7 +532,7 @@ body.index #index .container .indexImg4 {
 }
 body.index #index .container .indexImg4 span.block {
   background: url(../img/homeImgBar_04.png) no-repeat;
-  width: 368px;
+  width: 290px;
   padding: 2px 25px;
 }
 body.index #index .container .indexImg4:hover {
@@ -545,8 +544,8 @@ body.index #index .container .indexImg4:hover span.block {
 }
 body.index #index .container .indexImg5 {
   background: url(../img/homeImg_05.png) no-repeat;
-  width: 358px;
-  min-height: 229px;
+  width: 286px;
+  min-height: 175px;
   padding-bottom: 20px;
   margin-top: 15px;
   margin-bottom: 20px;
@@ -556,7 +555,7 @@ body.index #index .container .indexImg5 {
 }
 body.index #index .container .indexImg5 span.block {
   background: url(../img/homeImgBar_05.png) no-repeat;
-  width: 368px;
+  width: 288px;
   left: -1px;
   padding-right: 30px;
 }
@@ -565,16 +564,16 @@ body.index #index .container .indexImg5:hover {
 }
 body.index #index .container .indexImg6 {
   background: url(../img/homeImg_06.png) no-repeat;
-  width: 425px;
-  min-height: 229px;
+  width: 334px;
+  min-height: 175px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   margin-top: 15px;
 }
 body.index #index .container .indexImg6 span.block {
   background: url(../img/homeImgBar_06.png) no-repeat;
-  width: 360px;
-  right: 0px;
+  width: 285px;
+  right: -3px;
   padding-left: 95px;
 }
 body.index #index .container .indexImg6:hover {
@@ -582,8 +581,8 @@ body.index #index .container .indexImg6:hover {
 }
 body.index #index .container .indexImg7 {
   background: url(../img/homeImg_07.png) no-repeat;
-  width: 425px;
-  min-height: 222px;
+  width: 334px;
+  min-height: 175px;
   margin-top: 65px;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -592,7 +591,7 @@ body.index #index .container .indexImg7 {
 }
 body.index #index .container .indexImg7 span.block {
   background: url(../img/homeImgBar_07.png) no-repeat;
-  width: 417px;
+  width: 334px;
   padding: 3px 10px;
 }
 body.index #index .container .indexImg7 span.block i.fa {
@@ -603,8 +602,8 @@ body.index #index .container .indexImg7:hover {
 }
 body.index #index .container .indexImg8 {
   background: url(../img/homeImg_08.png) no-repeat;
-  width: 424px;
-  min-height: 229px;
+  width: 333px;
+  min-height: 175px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -613,9 +612,9 @@ body.index #index .container .indexImg8 {
 }
 body.index #index .container .indexImg8 span.block {
   background: url(../img/homeImgBar_08.png) no-repeat;
-  width: 417px;
+  width: 280px;
   left: -1px;
-  padding-right: 145px;
+  padding-right: 80px;
 }
 body.index #index .container .indexImg8:hover {
   background: url(../img/homeImgHover_08.png) no-repeat;
