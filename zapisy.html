@@ -55,11 +55,11 @@ License: Custom
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse nav-background" id="header-menu">
 			  <ul class="nav navbar-nav navbar-right animated fadeInDown">
-				<li><a href="dla_dzieci.html"><i class="fa fa-send-o"></i> Dla dzieci</a></li>
-                <li><a href="dla_mlodziezy.html"><i class="fa fa-globe"></i> Dla młodzieży</a></li>
-				<li><a href="dla_firm.html"><i class="fa fa-send-o"></i> Dla dorosłych i firm</a></li>
-				<li><a href="o_nas.html"><i class="fa fa-send-o"></i> O nas</a></li>
-				<li><a href="praca.html"><i class="fa fa-send-o"></i> Praca</a></li>
+				<li><a href="dla_dzieci.html"><i class="fa fa-child"></i> Dla dzieci</a></li>
+                <li><a href="dla_mlodziezy.html"><i class="fa fa-book"></i> Dla młodzieży</a></li>
+				<li><a href="dla_firm.html"><i class="fa fa-suitcase"></i> Dla dorosłych i firm</a></li>
+				<li><a href="o_nas.html"><i class="fa fa-star"></i> O nas</a></li>
+				<li><a href="praca.html"><i class="fa fa-desktop"></i> Praca</a></li>
 				<li><a href="kontakt.html"><i class="fa fa-envelope-o"></i> Kontakt</a></li>
 			  </ul>
 			</div><!-- /.navbar-collapse -->
@@ -114,6 +114,20 @@ License: Custom
     
     	<div class="col-md-4">
             <div class="bg1Szkola"></div>
+            <div cLass="box m-b-20">
+              <ul class="nav nav-pills nav-stacked">
+                <li>
+                  <a href="zapisy.php" class=""><i class="fa fa-users"></i> Zapisy</a>
+                </li>
+                <li>
+                  <a href="testy.html" class=""><i class="fa fa-check-square-o"></i> Testy poziomujące</a>
+                </li>
+                <li>
+                  <a href="pliki/cennik.pdf" class="" target="_blank"><i class="fa fa-file-pdf-o"></i> Cennik</a>
+                </li>
+              </ul>
+
+            </div>
         	<div class="box m-b-20">
             	<h3 class="">Zapisy na rok szkolny 2014/2015 już rozpoczęte.</h3>
                 <p>Jeśli chcesz uczyć się w szkole na poziomie i zdobywać rzetelną wiedzę oraz umiejętności językowe, przyjdź do nas.</p>
