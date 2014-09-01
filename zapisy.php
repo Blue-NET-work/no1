@@ -172,14 +172,15 @@ License: Custom
                     require_once('assets/plugins/phpmailer/class.phpmailer.php');
 
                     $mail = new PHPMailer(); // defaults to using php "mail()"
+					$mail->CharSet = 'UTF-8';
                     
                     $body = "Imię i nazwisko: ".$item['name']."(".$item['email'].")<br>
 							Wiek: ".$item['age']."<br>
-							Telefon: ".$item['phone']."
-							Wybrany język: ".$item['language']."
-							Zajęcia: ".$item['classes']."
-							Forma zajęć: ".$item['form']."
-							Ilość godzin kursu: ".$item['time']."
+							Telefon: ".$item['phone']."<br>
+							Wybrany język: ".$item['language']."<br>
+							Zajęcia: ".$item['classes']."<br>
+							Forma zajęć: ".$item['form']."<br>
+							Ilość godzin kursu: ".$item['time']."<br>
 							<br><br>".$item['desc'];
                     
                     $mail->AddReplyTo("sekretariat.no1@alejabzow47.pl", "AlejaBzow 46 Formularz"); // change to You adres and name
@@ -220,7 +221,7 @@ License: Custom
 	    			<div class="form-group">
 	        			<label for="phone">Numer telefonu</label>
 						<div class="input-group" data-validate="phone">
-							<input type="text" class="form-control" name="item[phone]" id="phone" placeholder="123-456-789" required>
+							<input type="text" class="form-control" name="item[phone]" id="phone" placeholder="123456789" required>
 							<span class="input-group-addon danger"><span class="glyphicon glyphicon-remove"></span></span>
 						</div>
 					</div>
