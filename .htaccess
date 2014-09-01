@@ -1,0 +1,9 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^alejabzow47.pl/[nc]
+RewriteRule ^(.*)$ http://www.alejabzow47.pl/$1 [r=301,nc]
+
+//301 Redirect Entire Directory
+RedirectMatch 301 /(.*) /aleja//$1
+ 

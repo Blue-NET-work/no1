@@ -182,9 +182,9 @@ License: Custom
 							Ilość godzin kursu: ".$item['time']."
 							<br><br>".$item['desc'];
                     
-                    $mail->AddReplyTo("biuro@blue-net.pl", "Biuro Blue-NET"); // change to You adres and name
-                    $mail->SetFrom("biuro@blue-net.pl", "Biuro Blue-NET"); // change to You adres and name
-                    $mail->AddReplyTo("biuro@blue-net.pl", "Biuro Blue-NET"); // change to You adres and name
+                    $mail->AddReplyTo("sekretariat.no1@alejabzow47.pl", "AlejaBzow 46 Formularz"); // change to You adres and name
+                    $mail->SetFrom("sekretariat.no1@alejabzow47.pl", "AlejaBzow 46 Formularz"); // change to You adres and name
+                    $mail->AddReplyTo("sekretariat.no1@alejabzow47.pl", "AlejaBzow 46 Formularz"); // change to You adres and name
                     
                     $mail->AddAddress($item['email'], $item['name']);
                     
