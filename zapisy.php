@@ -181,13 +181,13 @@ License: Custom
 							Zajęcia: ".$item['classes']."<br>
 							Forma zajęć: ".$item['form']."<br>
 							Ilość godzin kursu: ".$item['time']."<br>
-							<br><br>".$item['desc'];
+							<br><br>";
                     
-                    $mail->AddReplyTo("sekretariat.no1@alejabzow47.pl", "AlejaBzow 46 Formularz"); // change to You adres and name
-                    $mail->SetFrom("sekretariat.no1@alejabzow47.pl", "AlejaBzow 46 Formularz"); // change to You adres and name
-                    $mail->AddReplyTo("sekretariat.no1@alejabzow47.pl", "AlejaBzow 46 Formularz"); // change to You adres and name
+                    $mail->AddReplyTo("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
+                    $mail->SetFrom("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
+                    $mail->AddReplyTo("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
                     
-                    $mail->AddAddress($item['email'], $item['name']);
+                    $mail->AddAddress($item['email']);
                     
                     $mail->Subject    = "Zapisy na zajęcia: ".$item['name'];
                     
@@ -196,6 +196,7 @@ License: Custom
                     if(!$mail->Send()) {
                       echo "<div class='alert alert-danger' style='width:90%'><span class='glyphicon glyphicon-ban-circle'></span> The message has not been sent!!!<br>";
                       echo "Mailer Error: " . $mail->ErrorInfo;
+                      print_r(error_get_last());
                       echo "</div>"; 
                     } else {echo "<div class='alert alert-success' style='width:90%'><span class='glyphicon glyphicon-ok'></span> The message has been sent.</div>";}
                     
@@ -235,7 +236,7 @@ License: Custom
 	                <div class="form-group">
 	            		<label for="language">Wybrany język</label>
 						<div class="input-group">
-	                        <select class="form-control" name="language" id="item[language]" placeholder="Wybrany język" required>
+	                        <select class="form-control" name="item[language]" id="item[language]" placeholder="Wybrany język" required>
 	                            <option value="">Wybierz język</option>
 	                            <option value="angielski">angielski</option>
 	                            <option value="niemiecki">niemiecki</option>

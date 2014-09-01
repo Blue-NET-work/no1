@@ -1,3 +1,4 @@
+<?$wyslij_do='no1bestschooltest@gmail.com';?>
 <!DOCTYPE html>
 <!-- 
 Template Name: No1
@@ -360,13 +361,14 @@ elseif($_POST['imie_nazwisko'] AND $_POST['wiek'] AND preg_match('|^[_a-z0-9.-]*
 </div>
 
 <form method="POST" action="" >
-	
+	<!--
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
     <div class="col-sm-10">
       <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
     </div>
   </div>
+  -->
   
     <div class="form-group">
     	<h4>1. Wybierz nazwę koloru pasującą do obrazka:</h4>
