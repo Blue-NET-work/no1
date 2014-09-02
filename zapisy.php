@@ -37,6 +37,14 @@ License: Custom
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
 <body class="szkola_dodatkowa">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&appId=239249152859348&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- BEGIN HEADER -->
 <header>
@@ -125,8 +133,14 @@ License: Custom
                 <li>
                   <a href="pliki/cennik.pdf" class="" target="_blank"><i class="fa fa-file-pdf-o"></i> Cennik</a>
                 </li>
+                <li>
+                  <a href="galeria.html" class=""><i class="fa fa-file-image-o"></i> Galeria</a>
+                </li>
               </ul>
 
+            </div>
+            <div class="box m-b-20">
+              <div class="fb-like-box" data-href="https://www.facebook.com/alejabzow" data-width="328" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
             </div>
         	<div class="box m-b-20">
             	<h3 class="">Zapisy na rok szkolny 2014/2015 już rozpoczęte.</h3>

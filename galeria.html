@@ -137,6 +137,9 @@ License: Custom
                 <li>
                   <a href="pliki/cennik.pdf" class="" target="_blank"><i class="fa fa-file-pdf-o"></i> Cennik</a>
                 </li>
+                <li>
+                  <a href="galeria.html" class=""><i class="fa fa-file-image-o"></i> Galeria</a>
+                </li>
               </ul>
 
             </div>
@@ -172,8 +175,9 @@ License: Custom
         </div>
     	<div class="col-md-8 text-justify content">
             <style type="text/css">
-            body {
-                padding: 30px 0px;
+
+            #lightbox {
+                position: fixed !important;
             }
 
             #lightbox .modal-content {
@@ -194,7 +198,39 @@ License: Custom
                 
                 z-index:1032;
             }
+            ..modal-backdrop {
+                z-index: 1;
+            }
             </style>
+
+            <h3>Nowa lokalizacja:</h3>
+            <div class="col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="assets/img/galeria/1.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="assets/img/galeria/2.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="assets/img/galeria/3.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="assets/img/galeria/swietlica.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="assets/img/galeria/sala.jpg" alt="...">
+                </a>
+            </div>
+
+            <h3>Poprzednia lokalizacja:</h3>
             <div class="col-md-3">
                 <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
                     <img src="assets/img/galeria/P1010091.jpg" alt="...">
