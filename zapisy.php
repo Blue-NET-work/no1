@@ -202,7 +202,7 @@ License: Custom
                     $mail->AddReplyTo("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
                     
                     $mail->AddAddress($item['email']);
-                    $mail->AddAddress("lukas.piwowar@gmail.com");
+					$mail->AddCC("lukas.piwowar@gmail.com", 'Testowy');
                     
                     $mail->Subject    = "Zapisy na zajęcia: ".$item['name'];
                     
