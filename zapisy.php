@@ -187,8 +187,15 @@ License: Custom
 
                     $mail = new PHPMailer(); // defaults to using php "mail()"
 					$mail->CharSet = 'UTF-8';
+					
+                    /*
+					$mail->Host = 'mail.blue-net.pl';
+					$mail->Port = 587;
+					$mail->Username = 'biuro@blue-net.pl';
+					$mail->Password = 'MojeHasło123!';
+					*/
                     
-                    $body = "Imię i nazwisko: ".$item['name']."(".$item['email'].")<br>
+					$body = "Imię i nazwisko: ".$item['name']."(".$item['email'].")<br>
 							Wiek: ".$item['age']."<br>
 							Telefon: ".$item['phone']."<br>
 							Wybrany język: ".$item['language']."<br>
@@ -199,7 +206,7 @@ License: Custom
                     
                     $mail->AddReplyTo("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
                     $mail->SetFrom("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
-                    $mail->AddReplyTo("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
+                    //$mail->AddReplyTo("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
                     
                     $mail->AddAddress($item['email']);
 					$mail->AddCC("lukas.piwowar@gmail.com", 'Testowy');
