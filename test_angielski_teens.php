@@ -142,7 +142,7 @@ License: Custom
         </div>
     	<div class="col-md-8 text-justify content">
         
-<?
+<?php
 if($_POST['imie_nazwisko'] AND $_POST['wiek'] AND preg_match('|^[_a-z0-9.-]*[a-z0-9]@[_a-z0-9.-]*[a-z0-9].[a-z]{2,3}$|e',$_POST['mail']) AND $_POST['koniec'])
 {
  
@@ -264,10 +264,6 @@ for($x=1;$x<= 110;$x++)
     {if($_POST['odp'.$x]==$odp[$x])
         {$odpowiedzi.='<font color="green">Pytanie '.$x.':'.$_POST['odp'.$x].'</font><br>'; $punkty++;} 
         else $odpowiedzi.='<font color="red">Pytanie '.$x.':'.$_POST['odp'.$x].' </font>('.$odp[$x].')<br>';}
-
-
-
-
   
 
 if($punkty<=3)
@@ -345,6 +341,7 @@ elseif($punkty<=110)
 }
 elseif($_POST['imie_nazwisko'] AND $_POST['wiek'] AND preg_match('|^[_a-z0-9.-]*[a-z0-9]@[_a-z0-9.-]*[a-z0-9].[a-z]{2,3}$|e',$_POST['mail']))
 {
+
 ?>
 <style>
 label{padding-left:20px; width:300px; display:block;}
@@ -836,15 +833,15 @@ Cris said she ......................... many countries.
 
   
   <input type="hidden" name="koniec" value="koniec">
-  <input type="hidden" name="imie_nazwisko" value="<?=$_POST['imie_nazwisko']?>" style="width:300px"/></td></tr>
-  <input type="hidden" name="wiek" value="<?=$_POST['wiek']?>" style="width:300px"/></td></tr>
-  <input type="hidden" name="mail" value="<?=$_POST['mail']?>" style="width:300px" /></td></tr>
-  <input type="hidden" name="telefon" value="<?=$_POST['telefon']?>" style="width:300px" /></td></tr>
-  <input type="hidden" name="adres" value="<?=$_POST['adres']?>" style="width:300px" /></td></tr>
+  <input type="hidden" name="imie_nazwisko" value="<?php print $_POST['imie_nazwisko']; ?>" style="width:300px"/></td></tr>
+  <input type="hidden" name="wiek" value="<?php print $_POST['wiek']; ?>" style="width:300px"/></td></tr>
+  <input type="hidden" name="mail" value="<?php print $_POST['mail']; ?>" style="width:300px" /></td></tr>
+  <input type="hidden" name="telefon" value="<?php print $_POST['telefon']; ?>" style="width:300px" /></td></tr>
+  <input type="hidden" name="adres" value="<?php print $_POST['adres']; ?>" style="width:300px" /></td></tr>
   
   <input type="submit" style="float:right; font-size:14px; font-weight:bold; -moz-border-radius:5px; border-radius:5px; border:none; padding:5px; background:#017691; color:white; cursor:pointer;" value="Zakończ test i poznaj wynik"/>
 </form>
-<?
+<?php
 }
 
 else
@@ -856,19 +853,19 @@ else
   <br /><h5 style="color:red;">Pola z * są obowiązkowe.</h5>
   <form method="POST" action="" >
   <table>
-    <tr><td>Imię i nazwisko*: </td><td><input type="text" name="imie_nazwisko" value="<?=$_POST['imie_nazwisko']?>" style="width:300px"/></td></tr>
-        <tr><td></td><td style="color:red;"><?if($_POST AND !$_POST['imie_nazwisko'])echo "Uzupełnij to pole";?></td></tr>
-    <tr><td>Wiek*:  </td><td><input type="text" name="wiek" value="<?=$_POST['wiek']?>" style="width:300px"/></td></tr>
-        <tr><td></td><td style="color:red;"><?if($_POST AND !$_POST['wiek'])echo "Uzupełnij to pole";?></td></tr>
-    <tr><td>Twój email*:  </td><td><input type="text" name="mail" value="<?=$_POST['mail']?>" style="width:300px" /></td></tr>
-        <tr><td></td><td style="color:red;"><?if($_POST AND !preg_match('|^[_a-z0-9.-]*[a-z0-9]@[_a-z0-9.-]*[a-z0-9].[a-z]{2,3}$|e',$_POST['mail']))echo "Wpisz poprawny e-mail";?></td></tr>
-    <tr><td>Telefon:  </td><td><input type="text" name="telefon" value="<?=$_POST['telefon']?>" style="width:300px" /></td></tr>
-    <tr><td>Adres zamieszkania:  </td><td><input type="text" name="adres" value="<?=$_POST['adres']?>" style="width:300px" /></td></tr>
+    <tr><td>Imię i nazwisko*: </td><td><input type="text" name="imie_nazwisko" value="<?php print $_POST['imie_nazwisko']; ?>" style="width:300px"/></td></tr>
+        <tr><td></td><td style="color:red;"><?php if($_POST AND !$_POST['imie_nazwisko'])echo "Uzupełnij to pole";?></td></tr>
+    <tr><td>Wiek*:  </td><td><input type="text" name="wiek" value="<?php print $_POST['wiek']; ?>" style="width:300px"/></td></tr>
+        <tr><td></td><td style="color:red;"><?php if($_POST AND !$_POST['wiek'])echo "Uzupełnij to pole"; ?></td></tr>
+    <tr><td>Twój email*:  </td><td><input type="text" name="mail" value="<?php print $_POST['mail']; ?>" style="width:300px" /></td></tr>
+        <tr><td></td><td style="color:red;"><?php if($_POST AND !preg_match('|^[_a-z0-9.-]*[a-z0-9]@[_a-z0-9.-]*[a-z0-9].[a-z]{2,3}$|e',$_POST['mail']))echo "Wpisz poprawny e-mail";?></td></tr>
+    <tr><td>Telefon:  </td><td><input type="text" name="telefon" value="<?php print $_POST['telefon']; ?>" style="width:300px" /></td></tr>
+    <tr><td>Adres zamieszkania:  </td><td><input type="text" name="adres" value="<?php print $_POST['adres']; ?>" style="width:300px" /></td></tr>
     <tr><td> </td><td><input type="submit" style="float:right; font-size:14px; font-weight:bold; -moz-border-radius:5px; border-radius:5px; border:none; padding:5px; background:#017691; color:white; cursor:pointer;" value="Do testu"></td></tr>
   </table>
   </form>
   
-  <?
+  <?php
 }
 ?>
 
