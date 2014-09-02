@@ -922,3 +922,9 @@ body.index #index .container .indexImg8:hover {
 .szkola_dodatkowa #copyright a {
   color: #999;
 }
+
+
+
+.modal-backdrop {
+z-index:1 !important;	
+}
