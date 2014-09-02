@@ -203,12 +203,12 @@ License: Custom
 							Ilość godzin kursu: ".$item['time']."<br>
 							<br><br>";
                     
-                    $mail->AddReplyTo("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
-                    $mail->SetFrom("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
+                    $mail->AddReplyTo("sekretariat.no1@alejabzow47.pl", "AlejaBzow 47 Formularz"); // change to You adres and name
+                    $mail->SetFrom("zapisy@alejabzow47.pl", "AlejaBzow 47 Formularz"); // change to You adres and name
                     //$mail->AddReplyTo("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
                     
                     $mail->AddAddress($item['email']);
-					$mail->AddCC("lukas.piwowar@gmail.com", 'Testowy');
+					$mail->AddCC("sekretariat.no1@alejabzow47.pl", 'AlejaBzow 47 Formularz');
                     
                     $mail->Subject    = "Zapisy na zajęcia: ".$item['name'];
                     
