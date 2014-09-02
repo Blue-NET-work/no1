@@ -1,4 +1,4 @@
-<?$wyslij_do='no1bestschooltest@gmail.com';?>
+<?php $wyslij_do='no1bestschooltest@gmail.com'; ?>
 <!DOCTYPE html>
 <!-- 
 Template Name: No1

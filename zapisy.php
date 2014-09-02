@@ -194,11 +194,11 @@ License: Custom
                     $mail->MsgHTML($body);
                     
                     if(!$mail->Send()) {
-                      echo "<div class='alert alert-danger' style='width:90%'><span class='glyphicon glyphicon-ban-circle'></span> The message has not been sent!!!<br>";
+                      echo "<div class='alert alert-danger' style='width:90%'><span class='glyphicon glyphicon-ban-circle'></span> Wiadomość nie została wysłana!!!<br>";
                       echo "Mailer Error: " . $mail->ErrorInfo;
                       print_r(error_get_last());
                       echo "</div>"; 
-                    } else {echo "<div class='alert alert-success' style='width:90%'><span class='glyphicon glyphicon-ok'></span> The message has been sent.</div>";}
+                    } else {echo "<div class='alert alert-success' style='width:90%'><span class='glyphicon glyphicon-ok'></span> Wiadomość została wysłana.</div>";}
                     
                 }  
                         
