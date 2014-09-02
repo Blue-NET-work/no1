@@ -188,12 +188,11 @@ License: Custom
                     $mail = new PHPMailer(); // defaults to using php "mail()"
 					$mail->CharSet = 'UTF-8';
 					
-                    /*
-					$mail->Host = 'mail.blue-net.pl';
-					$mail->Port = 587;
-					$mail->Username = 'biuro@blue-net.pl';
-					$mail->Password = 'MojeHasło123!';
-					*/
+					$mail->Host = 'no1bs1.home.pl';
+					$mail->Port = 465;
+					$mail->SMTPSecure = 'ssl';
+					$mail->Username = 'zapisy@alejabzow47.pl';
+					$mail->Password = '3Hayp7d5#KQ-';
                     
 					$body = "Imię i nazwisko: ".$item['name']."(".$item['email'].")<br>
 							Wiek: ".$item['age']."<br>
