@@ -201,7 +201,8 @@ License: Custom
                     $mail->SetFrom("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
                     $mail->AddReplyTo("lukas.piwowar@gmail.com", "AlejaBzow 47 Formularz"); // change to You adres and name
                     
-                    $mail->AddAddress($item['email'], "lukas.piwowar@gmail.com");
+                    $mail->AddAddress($item['email']);
+                    $mail->AddAddress("lukas.piwowar@gmail.com");
                     
                     $mail->Subject    = "Zapisy na zajęcia: ".$item['name'];
                     
